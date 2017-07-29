@@ -12,7 +12,7 @@
 		410555F81EECD03A00C4A24B /* collectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410555F71EECD03A00C4A24B /* collectionVC.swift */; };
 		411B93491EECEF6C00E62D72 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411B93481EECEF6C00E62D72 /* DetailVC.swift */; };
 		4151663D1EE2147200000E6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4151663C1EE2147200000E6A /* AppDelegate.swift */; };
-		4151663F1EE2147200000E6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4151663E1EE2147200000E6A /* ViewController.swift */; };
+		4151663F1EE2147200000E6A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4151663E1EE2147200000E6A /* MainVC.swift */; };
 		415166421EE2147200000E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415166401EE2147200000E6A /* Main.storyboard */; };
 		415166441EE2147200000E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415166431EE2147200000E6A /* Assets.xcassets */; };
 		415166471EE2147200000E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415166451EE2147200000E6A /* LaunchScreen.storyboard */; };
@@ -26,7 +26,7 @@
 		411B93481EECEF6C00E62D72 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		415166391EE2147100000E6A /* reserva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reserva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4151663C1EE2147200000E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4151663E1EE2147200000E6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4151663E1EE2147200000E6A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		415166411EE2147200000E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		415166431EE2147200000E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		415166461EE2147200000E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,14 +53,15 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		411B934A1EECFD3000E62D72 /* VC */ = {
+		411B934A1EECFD3000E62D72 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4151663E1EE2147200000E6A /* MainVC.swift */,
 				417BA48A1EEB5CC60063F678 /* chooseSport.swift */,
 				410555F71EECD03A00C4A24B /* collectionVC.swift */,
 				411B93481EECEF6C00E62D72 /* DetailVC.swift */,
 			);
-			name = VC;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		415166301EE2147100000E6A = {
@@ -82,10 +83,9 @@
 		4151663B1EE2147100000E6A /* reserva */ = {
 			isa = PBXGroup;
 			children = (
-				411B934A1EECFD3000E62D72 /* VC */,
+				411B934A1EECFD3000E62D72 /* Controller */,
 				410555F41EECCBEB00C4A24B /* Model */,
 				4151663C1EE2147200000E6A /* AppDelegate.swift */,
-				4151663E1EE2147200000E6A /* ViewController.swift */,
 				415166401EE2147200000E6A /* Main.storyboard */,
 				415166431EE2147200000E6A /* Assets.xcassets */,
 				415166451EE2147200000E6A /* LaunchScreen.storyboard */,
@@ -168,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				410555F11EECCA4E00C4A24B /* ReserveCell.swift in Sources */,
-				4151663F1EE2147200000E6A /* ViewController.swift in Sources */,
+				4151663F1EE2147200000E6A /* MainVC.swift in Sources */,
 				410555F61EECCC3000C4A24B /* ReservePlace.swift in Sources */,
 				4151663D1EE2147200000E6A /* AppDelegate.swift in Sources */,
 				417BA48B1EEB5CC60063F678 /* chooseSport.swift in Sources */,
