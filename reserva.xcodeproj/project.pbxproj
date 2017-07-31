@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E69008BD58B8A48F190A4E8 /* Pods_reserva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B71FBF7DB8A87633C82215 /* Pods_reserva.framework */; };
 		410555F11EECCA4E00C4A24B /* ReserveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410555F01EECCA4E00C4A24B /* ReserveCell.swift */; };
 		410555F61EECCC3000C4A24B /* ReservePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410555F51EECCC3000C4A24B /* ReservePlace.swift */; };
 		410555F81EECD03A00C4A24B /* collectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410555F71EECD03A00C4A24B /* collectionVC.swift */; };
 		411B93491EECEF6C00E62D72 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411B93481EECEF6C00E62D72 /* DetailVC.swift */; };
+		413766A31F2F9FD0000ECC45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 413766A21F2F9FD0000ECC45 /* GoogleService-Info.plist */; };
 		4151663D1EE2147200000E6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4151663C1EE2147200000E6A /* AppDelegate.swift */; };
 		4151663F1EE2147200000E6A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4151663E1EE2147200000E6A /* MainVC.swift */; };
 		415166421EE2147200000E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415166401EE2147200000E6A /* Main.storyboard */; };
@@ -20,10 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10CDD3348301759992281212 /* Pods-reserva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reserva.release.xcconfig"; path = "Pods/Target Support Files/Pods-reserva/Pods-reserva.release.xcconfig"; sourceTree = "<group>"; };
 		410555F01EECCA4E00C4A24B /* ReserveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReserveCell.swift; sourceTree = "<group>"; };
 		410555F51EECCC3000C4A24B /* ReservePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservePlace.swift; sourceTree = "<group>"; };
 		410555F71EECD03A00C4A24B /* collectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionVC.swift; sourceTree = "<group>"; };
 		411B93481EECEF6C00E62D72 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		413766A21F2F9FD0000ECC45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		415166391EE2147100000E6A /* reserva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reserva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4151663C1EE2147200000E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4151663E1EE2147200000E6A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -32,6 +36,8 @@
 		415166461EE2147200000E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		415166481EE2147200000E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		417BA48A1EEB5CC60063F678 /* chooseSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chooseSport.swift; sourceTree = "<group>"; };
+		9FB3565DC0768B1A362255D8 /* Pods-reserva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reserva.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reserva/Pods-reserva.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B71FBF7DB8A87633C82215 /* Pods_reserva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reserva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E69008BD58B8A48F190A4E8 /* Pods_reserva.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,11 +71,20 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		413DC6CB1F2FA66400D989DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		415166301EE2147100000E6A = {
 			isa = PBXGroup;
 			children = (
 				4151663B1EE2147100000E6A /* reserva */,
 				4151663A1EE2147100000E6A /* Products */,
+				5B8DB281A1A21F8FCED3B221 /* Pods */,
+				FB6E28AA3E3193ABA96A7D80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,16 +99,35 @@
 		4151663B1EE2147100000E6A /* reserva */ = {
 			isa = PBXGroup;
 			children = (
-				411B934A1EECFD3000E62D72 /* Controller */,
 				410555F41EECCBEB00C4A24B /* Model */,
+				413DC6CB1F2FA66400D989DA /* View */,
+				411B934A1EECFD3000E62D72 /* Controller */,
 				4151663C1EE2147200000E6A /* AppDelegate.swift */,
 				415166401EE2147200000E6A /* Main.storyboard */,
 				415166431EE2147200000E6A /* Assets.xcassets */,
 				415166451EE2147200000E6A /* LaunchScreen.storyboard */,
 				415166481EE2147200000E6A /* Info.plist */,
+				413766A21F2F9FD0000ECC45 /* GoogleService-Info.plist */,
 				410555F01EECCA4E00C4A24B /* ReserveCell.swift */,
 			);
 			path = reserva;
+			sourceTree = "<group>";
+		};
+		5B8DB281A1A21F8FCED3B221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3565DC0768B1A362255D8 /* Pods-reserva.debug.xcconfig */,
+				10CDD3348301759992281212 /* Pods-reserva.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB6E28AA3E3193ABA96A7D80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0B71FBF7DB8A87633C82215 /* Pods_reserva.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4151664B1EE2147200000E6A /* Build configuration list for PBXNativeTarget "reserva" */;
 			buildPhases = (
+				5BB94395A85A4EC45BD2F6E1 /* [CP] Check Pods Manifest.lock */,
 				415166351EE2147100000E6A /* Sources */,
 				415166361EE2147100000E6A /* Frameworks */,
 				415166371EE2147100000E6A /* Resources */,
+				DB65950A69E2F4A5E793061E /* [CP] Embed Pods Frameworks */,
+				C3074B985681F1492D4FD40A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,12 +193,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				415166471EE2147200000E6A /* LaunchScreen.storyboard in Resources */,
+				413766A31F2F9FD0000ECC45 /* GoogleService-Info.plist in Resources */,
 				415166441EE2147200000E6A /* Assets.xcassets in Resources */,
 				415166421EE2147200000E6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BB94395A85A4EC45BD2F6E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3074B985681F1492D4FD40A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reserva/Pods-reserva-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB65950A69E2F4A5E793061E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-reserva/Pods-reserva-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		415166351EE2147100000E6A /* Sources */ = {
@@ -294,6 +381,7 @@
 		};
 		4151664C1EE2147200000E6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB3565DC0768B1A362255D8 /* Pods-reserva.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = reserva/Info.plist;
@@ -306,6 +394,7 @@
 		};
 		4151664D1EE2147200000E6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CDD3348301759992281212 /* Pods-reserva.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = reserva/Info.plist;
