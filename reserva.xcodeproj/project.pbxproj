@@ -18,6 +18,8 @@
 		415166421EE2147200000E6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415166401EE2147200000E6A /* Main.storyboard */; };
 		415166441EE2147200000E6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415166431EE2147200000E6A /* Assets.xcassets */; };
 		415166471EE2147200000E6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415166451EE2147200000E6A /* LaunchScreen.storyboard */; };
+		4157E0BB1F2FC7E500AFE92C /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157E0BA1F2FC7E500AFE92C /* FancyBtn.swift */; };
+		4157E0BD1F2FD10800AFE92C /* customBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157E0BC1F2FD10800AFE92C /* customBtn.swift */; };
 		417BA48B1EEB5CC60063F678 /* chooseSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417BA48A1EEB5CC60063F678 /* chooseSport.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		415166431EE2147200000E6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		415166461EE2147200000E6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		415166481EE2147200000E6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4157E0BA1F2FC7E500AFE92C /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		4157E0BC1F2FD10800AFE92C /* customBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customBtn.swift; sourceTree = "<group>"; };
 		417BA48A1EEB5CC60063F678 /* chooseSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chooseSport.swift; sourceTree = "<group>"; };
 		9FB3565DC0768B1A362255D8 /* Pods-reserva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reserva.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reserva/Pods-reserva.debug.xcconfig"; sourceTree = "<group>"; };
 		C0B71FBF7DB8A87633C82215 /* Pods_reserva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reserva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +78,8 @@
 		413DC6CB1F2FA66400D989DA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4157E0BA1F2FC7E500AFE92C /* FancyBtn.swift */,
+				4157E0BC1F2FD10800AFE92C /* customBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -165,6 +171,7 @@
 				TargetAttributes = {
 					415166381EE2147100000E6A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZY2Y4GLDVL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -257,8 +264,10 @@
 				410555F11EECCA4E00C4A24B /* ReserveCell.swift in Sources */,
 				4151663F1EE2147200000E6A /* MainVC.swift in Sources */,
 				410555F61EECCC3000C4A24B /* ReservePlace.swift in Sources */,
+				4157E0BD1F2FD10800AFE92C /* customBtn.swift in Sources */,
 				4151663D1EE2147200000E6A /* AppDelegate.swift in Sources */,
 				417BA48B1EEB5CC60063F678 /* chooseSport.swift in Sources */,
+				4157E0BB1F2FC7E500AFE92C /* FancyBtn.swift in Sources */,
 				410555F81EECD03A00C4A24B /* collectionVC.swift in Sources */,
 				411B93491EECEF6C00E62D72 /* DetailVC.swift in Sources */,
 			);
@@ -384,6 +393,7 @@
 			baseConfigurationReference = 9FB3565DC0768B1A362255D8 /* Pods-reserva.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZY2Y4GLDVL;
 				INFOPLIST_FILE = reserva/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aboulatta.reserva;
@@ -397,6 +407,7 @@
 			baseConfigurationReference = 10CDD3348301759992281212 /* Pods-reserva.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZY2Y4GLDVL;
 				INFOPLIST_FILE = reserva/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aboulatta.reserva;
