@@ -10,8 +10,6 @@
 		1E69008BD58B8A48F190A4E8 /* Pods_reserva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B71FBF7DB8A87633C82215 /* Pods_reserva.framework */; };
 		410555F11EECCA4E00C4A24B /* ReserveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410555F01EECCA4E00C4A24B /* ReserveCell.swift */; };
 		410555F61EECCC3000C4A24B /* ReservePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410555F51EECCC3000C4A24B /* ReservePlace.swift */; };
-		410555F81EECD03A00C4A24B /* collectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410555F71EECD03A00C4A24B /* collectionVC.swift */; };
-		411B93491EECEF6C00E62D72 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411B93481EECEF6C00E62D72 /* DetailVC.swift */; };
 		413766A31F2F9FD0000ECC45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 413766A21F2F9FD0000ECC45 /* GoogleService-Info.plist */; };
 		4151663D1EE2147200000E6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4151663C1EE2147200000E6A /* AppDelegate.swift */; };
 		4151663F1EE2147200000E6A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4151663E1EE2147200000E6A /* MainVC.swift */; };
@@ -27,8 +25,6 @@
 		10CDD3348301759992281212 /* Pods-reserva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reserva.release.xcconfig"; path = "Pods/Target Support Files/Pods-reserva/Pods-reserva.release.xcconfig"; sourceTree = "<group>"; };
 		410555F01EECCA4E00C4A24B /* ReserveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReserveCell.swift; sourceTree = "<group>"; };
 		410555F51EECCC3000C4A24B /* ReservePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservePlace.swift; sourceTree = "<group>"; };
-		410555F71EECD03A00C4A24B /* collectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionVC.swift; sourceTree = "<group>"; };
-		411B93481EECEF6C00E62D72 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		413766A21F2F9FD0000ECC45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		415166391EE2147100000E6A /* reserva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reserva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4151663C1EE2147200000E6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,8 +65,6 @@
 			children = (
 				4151663E1EE2147200000E6A /* MainVC.swift */,
 				417BA48A1EEB5CC60063F678 /* chooseSport.swift */,
-				410555F71EECD03A00C4A24B /* collectionVC.swift */,
-				411B93481EECEF6C00E62D72 /* DetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -268,8 +262,6 @@
 				4151663D1EE2147200000E6A /* AppDelegate.swift in Sources */,
 				417BA48B1EEB5CC60063F678 /* chooseSport.swift in Sources */,
 				4157E0BB1F2FC7E500AFE92C /* FancyBtn.swift in Sources */,
-				410555F81EECD03A00C4A24B /* collectionVC.swift in Sources */,
-				411B93491EECEF6C00E62D72 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

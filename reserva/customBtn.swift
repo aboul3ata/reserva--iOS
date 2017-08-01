@@ -28,8 +28,8 @@ import UIKit
                     
                     self.layer.masksToBounds = false
                     self.layer.cornerRadius = 22.5
-                    self.layer.shadowOpacity = 0.2
-                    self.layer.shadowRadius = 5.0
+                    self.layer.shadowOpacity = 0.8
+                    self.layer.shadowRadius = 4.0
                     self.layer.shadowOffset = CGSize(width: 1.0, height: 0)
                     self.layer.shadowColor = UIColor(red: 120/255, green: 120/255, blue: 120/255, alpha: 120/255).cgColor
                     
